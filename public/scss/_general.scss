@@ -1,0 +1,30 @@
+*{box-sizing: border-box; margin: 0; padding: 0;}
+
+body{
+    background: #DEE0E3;
+	font-family: 'Fira Sans', sans-serif;
+   
+}
+
+html{
+	scroll-behavior: smooth;
+	
+	&::-webkit-scrollbar { /*TAMAÑOS DE SCROLL*/
+      width: 10px; 
+      height: 7px; 
+  	}
+    &::-webkit-scrollbar-thumb { /*COLORES*/
+        background: rgba(green,.6); 
+        border-radius: 7px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: rgba(green,.8);
+        border-right: .5px solid white; 
+    }
+
+    &::-webkit-scrollbar-thumb:active {
+        background: rgba(green,.9); 
+        border: .1px solid white;
+    }
+}

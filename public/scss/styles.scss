@@ -1,0 +1,30 @@
+
+// sass --watch public/scss:public/css
+
+/*
+|----------------------------------------------------
+| Imports de la página
+| Esto es para que funcionen los estilos de la página
+|----------------------------------------------------
+|
+|----------------------------------------------------
+| Imports generales de la página 
+|----------------------------------------------------
+*/
+	@import 'general';
+
+/*
+|----------------------------------------------------
+| Imports del resto de las páginas 
+|----------------------------------------------------
+*/
+	@import 'styles-template';
+	@import 'styles-faq';
+	@import 'styles-content';
+
+/*
+|----------------------------------------------------
+| Imports de los mediaqueries
+|----------------------------------------------------
+*/
+	@import 'mediaqueries';
